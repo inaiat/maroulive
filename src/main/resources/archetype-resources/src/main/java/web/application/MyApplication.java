@@ -3,9 +3,9 @@ package ${package}.web.application;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 
-import br.com.digilabs.test.web.HomePage;
+import br.com.digilabs.test.web.page.HomePage;
 
-import ${package}.web.HomePage;
+import ${package}.web.page.HomePage;
 import ${package}.web.authentication.SignInPage;
 
 
@@ -19,8 +19,8 @@ public class MyApplication extends WebApplication {
      * @see org.apache.wicket.Application#getHomePage()
      */
     @Override
-    public Class<SignInPage> getHomePage() {
-        return SignInPage.class;
+    public Class<HomePage> getHomePage() {
+        return HomePage.class;
     }
 
     /**

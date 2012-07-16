@@ -23,6 +23,8 @@
     <source>src/main/java/web/base/AuthenticatedBasePage.java</source>
     <source>src/main/java/web/base/BasePage.html</source>
     <source>src/main/java/web/base/BasePage.java</source>
+    <source>src/main/java/web/page/HomePage.html</source>
+    <source>src/main/java/web/page/HomePage.java</source>
     <source>src/main/java/web/component/bootstrap/BootstrapFeedbackPanel.html</source>
     <source>src/main/java/web/component/bootstrap/BootstrapFeedbackPanel.java</source>
     <source>src/main/java/web/component/bootstrap/ModalLink.java</source>
