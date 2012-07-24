@@ -14,7 +14,7 @@
     <source>src/main/java/persistence/AbstractHibernateDaoImpl.java</source>
     <source>src/main/java/service/UserService.java</source>
     <source>src/main/java/service/UserServiceImpl.java</source>
-    <source>src/main/java/web/application/MyApplication.java</source>
+    <source>src/main/java/web/application/WicketApplication.java</source>
     <source>src/main/java/web/authentication/SignInPage.html</source>
     <source>src/main/java/web/authentication/SignInPage.java</source>
     <source>src/main/java/web/authentication/SignOutPage.html</source>

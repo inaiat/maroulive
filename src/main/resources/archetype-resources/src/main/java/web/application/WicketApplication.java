@@ -3,8 +3,6 @@ package ${package}.web.application;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 
-import br.com.digilabs.test.web.page.HomePage;
-
 import ${package}.web.page.HomePage;
 import ${package}.web.authentication.SignInPage;
 
@@ -13,7 +11,7 @@ import ${package}.web.authentication.SignInPage;
  * Application object for your web application. If you want to run this application without deploying, run the Start class.
  *
  */
-public class MyApplication extends WebApplication {
+public class WicketApplication extends WebApplication {
 
     /**
      * @see org.apache.wicket.Application#getHomePage()
